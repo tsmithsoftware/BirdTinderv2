@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdTinderv2.DAL", "BirdTinderv2\BirdTinderv2.DAL.csproj", "{DFA9E82F-2B24-40FD-9DE2-4340BCD08981}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdTinderv2.DAL", "BirdTinderv2.DAL\BirdTinderv2.DAL.csproj", "{0DDAEBC1-3C64-48A1-92CD-6683199B8F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALTesting", "DALTesting\DALTesting.csproj", "{B4DCFF10-CA40-4194-9310-04679EBB8EC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DFA9E82F-2B24-40FD-9DE2-4340BCD08981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFA9E82F-2B24-40FD-9DE2-4340BCD08981}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFA9E82F-2B24-40FD-9DE2-4340BCD08981}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFA9E82F-2B24-40FD-9DE2-4340BCD08981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDAEBC1-3C64-48A1-92CD-6683199B8F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDAEBC1-3C64-48A1-92CD-6683199B8F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDAEBC1-3C64-48A1-92CD-6683199B8F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDAEBC1-3C64-48A1-92CD-6683199B8F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DCFF10-CA40-4194-9310-04679EBB8EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DCFF10-CA40-4194-9310-04679EBB8EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DCFF10-CA40-4194-9310-04679EBB8EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DCFF10-CA40-4194-9310-04679EBB8EC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
