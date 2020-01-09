@@ -12,16 +12,18 @@ using BirdTinderv2.DAL;
 
 namespace BirdTinderv2.API.Controllers
 {
+    [Authorize]
     [Route("[controller]")]
     [ApiController]
     public class BirdUserController : ControllerBase
     {
-        private ModelContext context = new ModelContext();
+        private static ModelContext context = new ModelContext();
+        private BirdUserRepo userRepo = new BirdUserRepo(context);
+
         // GET: api/BirdUser
         [HttpGet]
         public List<BirdUser> Get()
         {
-            var userRepo = new BirdUserRepo(context);
             return userRepo.GetAll();
         }
 
